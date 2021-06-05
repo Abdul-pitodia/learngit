@@ -1,0 +1,74 @@
+git --version
+
+git config --global user.name
+
+git config --global user.email
+
+git config --global --edit
+
+mkdir LearnGit - makes directory inside current directory
+
+cd LearnGit - change directory to the one u just made
+
+git init - initialises directory as git file
+
+ls -a 
+
+git status - tells status about changes in the current repo, what modified, what deleted and rest things.
+
+git add <filename> - adds the file that you mentioned into the staging area which is a temporary area which has files waiting to be committed
+
+git commit -m "message" - commits the files added via git add
+
+git log - how many commits are done by whom
+
+git add . - adds all files present in staging area
+
+git checkout <hashcode> - go to previous version and restore that state / go to specific branch and do changes there
+
+git checkout master - comes to most recent state 
+
+git branch  - tells what commit / branch you are viewing
+
+git branch <branchname> - copies all code of master and makes a new branch which wil not affect master
+
+git checkout -b <branchname> - shifts to a newly created branch "branchname"
+
+git merge <branchname> - merges the edited code of this branchname to current working branch
+
+.gitignore - make this file and put the names of file you dont want github to keep track of such as api key or sensitive info
+
+make new repo on github account and use 3 commands that come on new page
+
+
+git remote -v - add before adding origin and type after adding origin link
+
+remote means u want to push your local pc's repo onto a origin( i.e. github url)
+
+add 3 commands one by one
+
+git remote -v
+then origin command
+then git remote -v again
+then branch main and push origin commands
+
+push origin means push the code remotely on the internet to the origin url 
+
+git push - commit new changes to origin 
+
+to push a new branch,  lets say dev branch
+
+git push -u origin <branchname>
+
+make sure you checkout and are in that branch first before pushing
+
+
+how to make OPEN SOURCE CONTRI
+1) fork the repo you are viewing 
+2) after forking, on the green "code" button click on it and copy the https
+3) clone in a clean new folder. cmd - git clone <repo url>
+4) after that do your changes, do add and commit 
+5) then do git push to your forked repo
+6) then create pull rquest by going to contribute tab and select pull request , review changes and give request to owner to pull your made changes to his repo which will count as contribution
+
+
