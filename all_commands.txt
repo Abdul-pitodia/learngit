@@ -72,3 +72,4 @@ how to make OPEN SOURCE CONTRI
 6) then create pull rquest by going to contribute tab and select pull request , review changes and give request to owner to pull your made changes to his repo which will count as contribution
 
 
+git diff <filename> shows changes
